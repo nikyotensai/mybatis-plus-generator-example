@@ -1,0 +1,18 @@
+fileOverride: false
+dataSource:
+  driverName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false
+  username: root
+  password: 123456
+strategy:
+  author: nikyotensai
+  naming: underline_to_camel
+  tablePrefix: city
+  idGenType: AUTO
+  superEntityClass: com.github.nikyotensai.entity.BaseEntity
+packageInfo:
+  parent: com.github.nikyotensai
+  dao: dao
+  entity: entity
+  mapper: mapper
+  xml: mapper
