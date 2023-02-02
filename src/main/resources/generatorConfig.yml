@@ -7,9 +7,11 @@ dataSource:
 strategy:
   author: nikyotensai
   naming: underline_to_camel
-  tablePrefix: city
+  tablePrefix: t_city
+  ignorePrefix: t_
   idGenType: AUTO
   superEntityClass: com.github.nikyotensai.entity.BaseEntity
+  enableSwagger: true
 packageInfo:
   parent: com.github.nikyotensai
   dao: dao

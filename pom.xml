@@ -32,7 +32,7 @@
             <plugin>
                 <groupId>com.github.nikyotensai</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
-                <version>1.0.1-SNAPSHOT</version>
+                <version>1.0.3</version>
                 <configuration>
                     <configurationFile>${basedir}/src/main/resources/generatorConfig.yml</configurationFile>
                 </configuration>
